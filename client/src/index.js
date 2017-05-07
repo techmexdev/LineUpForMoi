@@ -12,10 +12,10 @@ ReactDOM.render(
   <App>
     <Router>
       <div>
-          <Route exact path='/' component={Home} />
-          <Route path='/login' component={Login} />
-          <Route path='/signup' component={Signup} />
-          <Route path='/welcome' component={Welcome} />
+        <Route exact path="/" component={Welcome} />
+        <Route path="/login" component={Login} />
+        <Route path="/signup" component={Signup} />
+        <Route path="/home" component={Home} />
       </div>
     </Router>
   </App>,
